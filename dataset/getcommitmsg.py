@@ -67,7 +67,9 @@ if __name__ == "__main__":
     # 1. Path to the folder containing your .md files
     MD_FILES_DIR = './results_1' 
     # 2. EXACT directory where your local QEMU git repository is located
-    GIT_REPO_PATH = '/home/tanvir014/Class_Mat/Thesis/Qemu/qemu'
+    QEMU_GIT_REPO_PATH = '/home/tanvir014/Class_Mat/Thesis/Qemu/qemu'
+    FFMPEG_GIT_REPO_PATH = '/home/tanvir014/Class_Mat/Thesis/FFmpeg/FFmpeg'
 
-    update_md_files(MD_FILES_DIR, GIT_REPO_PATH)
+    update_md_files(MD_FILES_DIR, QEMU_GIT_REPO_PATH)
+    update_md_files(MD_FILES_DIR, FFMPEG_GIT_REPO_PATH)
     print("Task completed.")
